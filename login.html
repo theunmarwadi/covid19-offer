@@ -86,22 +86,22 @@
                                     </div>
                                 </div>
                                 <p class="thirdparty-heading">- OR USING EMAIL -</p>
-                                <form action="">
+                                <form action="POST" data-netlify="true">
                                     <fieldset class="login-fieldset">
                                         <div>
-                                            <input type="text" class="login-input" placeholder="Your Full Name">
+                                            <input type="text" name="name" id="name" class="login-input" placeholder="Your Full Name">
                                         </div>
                                         <div>
-                                            <input type="text" class="login-input" placeholder="Your Email Address">
+                                            <input type="text" name="email" id="email" class="login-input" placeholder="Your Email Address">
                                         </div>
                                         <div>
-                                            <input type="text" class="login-input" placeholder="Choose Password">
+                                            <input type="text" name="password" id="password" class="login-input" placeholder="Choose Password">
                                         </div>
                                         <div>
-                                            <input type="text" class="login-input" placeholder="Mobile Number">
+                                            <input type="text" name="number" id="number" class="login-input" placeholder="Mobile Number">
                                         </div>
                                         <div>
-                                            <input type="text" class="login-input s-m-number" placeholder="Business Sector">
+                                            <input type="text" name="business" id="business" class="login-input s-m-number" placeholder="Business Sector">
                                         </div>
 
                                         <fieldset data-type="horizontal" class="register-gender">
@@ -114,7 +114,7 @@
 
                                     </fieldset>
                                     <fieldset class="login-btn-field">
-                                        <button class="login-button">REGISTER</button>
+                                        <button type="submit" class="login-button">REGISTER</button>
                                     </fieldset>
                                 </form>
                                 <div class="sign-up-link">
